@@ -1,5 +1,7 @@
 # Arion Judgment Core
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 > **Reality provides experience; counterfactuals produce agency.**
 
 Arion Judgment Core is a small framework for organizing how a collective
@@ -71,8 +73,8 @@ release procedures, credentials, runtime payloads, or a default governance
 organization. A Domain Pack may narrow Core safety rules but may not weaken
 them.
 
-See [Principles](docs/principles.md),
-[Architecture](docs/architecture.md), and the
+See the [Chinese Guidebook](docs/guidebook.zh-CN.md),
+[Principles](docs/principles.md), [Architecture](docs/architecture.md), and the
 [Domain Pack contract](docs/contracts/arion-domain-pack.v1.yaml).
 
 ## License

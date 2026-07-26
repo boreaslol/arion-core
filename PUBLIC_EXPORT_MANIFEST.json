@@ -1,6 +1,6 @@
 {
   "candidate_status": "candidate_ready_for_review",
-  "file_count": 41,
+  "file_count": 43,
   "files": [
     {
       "path": ".gitignore",
@@ -16,9 +16,15 @@
     },
     {
       "path": "README.md",
-      "sha256": "10f4e9d4029e7bba28c08b8f83390ecf42be64ad90cf27792d7e0a5335d5ec38",
-      "size_bytes": 2593,
+      "sha256": "71a2b4948679b8e55e085f3f7ce96d3a990dfb4bee13044e8f926271fc4360f5",
+      "size_bytes": 2699,
       "source": "open_source/public_candidate/README.md"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "ee31cc24dadb82a4b76cdf58d657d9336a8cdca589a2c6f11b2e81b4d1c4b84f",
+      "size_bytes": 4743,
+      "source": "open_source/public_candidate/README.zh-CN.md"
     },
     {
       "path": "docs/architecture.md",
@@ -31,6 +37,12 @@
       "sha256": "943ac3c279afaad92fbfc34e30ceda57694d54b52bb1bbb23db472eafb2def99",
       "size_bytes": 3690,
       "source": "docs/contracts/arion-domain-pack.v1.yaml"
+    },
+    {
+      "path": "docs/guidebook.zh-CN.md",
+      "sha256": "630fa53c7cd8a0fdc9ecd284930cfcc9f21d178a9a491df1dfa5c4b60fb790d4",
+      "size_bytes": 14484,
+      "source": "open_source/public_candidate/docs/guidebook.zh-CN.md"
     },
     {
       "path": "docs/principles.md",
