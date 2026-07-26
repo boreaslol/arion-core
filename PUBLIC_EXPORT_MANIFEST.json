@@ -1,6 +1,6 @@
 {
   "candidate_status": "candidate_ready_for_review",
-  "file_count": 43,
+  "file_count": 44,
   "files": [
     {
       "path": ".gitignore",
@@ -16,14 +16,14 @@
     },
     {
       "path": "README.md",
-      "sha256": "71a2b4948679b8e55e085f3f7ce96d3a990dfb4bee13044e8f926271fc4360f5",
-      "size_bytes": 2699,
+      "sha256": "b21439989525746ae78c0d9a49386618ea10c1380de214b73b698ff0a7e731d0",
+      "size_bytes": 3634,
       "source": "open_source/public_candidate/README.md"
     },
     {
       "path": "README.zh-CN.md",
-      "sha256": "ee31cc24dadb82a4b76cdf58d657d9336a8cdca589a2c6f11b2e81b4d1c4b84f",
-      "size_bytes": 4743,
+      "sha256": "38830093999d9f98bf8bd40422c5db062234e5ca7ffeb99d837d5e096ff7c3da",
+      "size_bytes": 6285,
       "source": "open_source/public_candidate/README.zh-CN.md"
     },
     {
@@ -40,8 +40,8 @@
     },
     {
       "path": "docs/guidebook.zh-CN.md",
-      "sha256": "630fa53c7cd8a0fdc9ecd284930cfcc9f21d178a9a491df1dfa5c4b60fb790d4",
-      "size_bytes": 14484,
+      "sha256": "570d2a9fe86d363c0c97b0d3f5518357d5c9a34ae72cb8483b45243dc4d6fa80",
+      "size_bytes": 14669,
       "source": "open_source/public_candidate/docs/guidebook.zh-CN.md"
     },
     {
@@ -49,6 +49,12 @@
       "sha256": "ebe726be72afa1f33f160e85ee6de347e803d56f0ad6abdada64e244497be50e",
       "size_bytes": 2580,
       "source": "open_source/public_candidate/docs/principles.md"
+    },
+    {
+      "path": "docs/risk-management-walkthrough.zh-CN.md",
+      "sha256": "35b46933b1f5e875a2fade347b7ed24473a12fb269d8c16602c72b65fb29c179",
+      "size_bytes": 14595,
+      "source": "open_source/public_candidate/docs/risk-management-walkthrough.zh-CN.md"
     },
     {
       "path": "open_source/__init__.py",
@@ -256,8 +262,8 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "045148fbcc08a02c2ddaac98b2521362bb784224ab1eff4ad8ec854390a84797",
-      "size_bytes": 532,
+      "sha256": "3637ef3cad6f8faa723b35ec07a3d052ac09a997926dca287c90c2034afedce3",
+      "size_bytes": 559,
       "source": "open_source/public_candidate/pyproject.toml"
     }
   ],

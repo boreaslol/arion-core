@@ -13,6 +13,24 @@ question profiles, routes, and executors. Core keeps the durable judgment
 state and creates temporary Agent instances only for the open questions that
 currently matter.
 
+## Risk-Management Origin
+
+Arion was distilled from a Chief Risk Officer project. Its original assembly
+kept eight responsibilities distinct: `Lead`, `Data Analyst`,
+`Strategy Analyst`, `Anti-Fraud Specialist`, `Model Engineer`,
+`Risk Platform Engineer`, `Release Engineer`, and `Release Verifier`.
+
+Those roles are not hard-coded into Core. They demonstrate why governance
+roles and Agent instances must remain different: evidence, policy
+counterfactuals, adversarial adaptation, model uncertainty, implementation,
+controlled action, and independent verification cannot safely collapse into
+one generic executor.
+
+The public repository excludes private business vocabulary, metrics, systems,
+thresholds, models, and release procedures. See the
+[sanitized risk-management walkthrough](docs/risk-management-walkthrough.zh-CN.md)
+for one complete collaboration.
+
 ## Core Ideas
 
 - **Incompleteness:** unknowns remain visible instead of being erased by
@@ -73,8 +91,10 @@ release procedures, credentials, runtime payloads, or a default governance
 organization. A Domain Pack may narrow Core safety rules but may not weaken
 them.
 
-See the [Chinese Guidebook](docs/guidebook.zh-CN.md),
-[Principles](docs/principles.md), [Architecture](docs/architecture.md), and the
+See the
+[risk-management walkthrough](docs/risk-management-walkthrough.zh-CN.md),
+[Chinese Guidebook](docs/guidebook.zh-CN.md), [Principles](docs/principles.md),
+[Architecture](docs/architecture.md), and the
 [Domain Pack contract](docs/contracts/arion-domain-pack.v1.yaml).
 
 ## License

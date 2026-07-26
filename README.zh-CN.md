@@ -12,6 +12,25 @@ Arion Judgment Core 是一个小型、可修正的集体判断内核。它组织
 
 Domain Pack 提供稳定的责任边界、问题契约、路由和执行器；Core 保存持续存在的判断状态，并且只为当前真正开放的问题创建临时 Agent。
 
+## 它从风险管理中生长出来
+
+Arion 最初不是一个抽象的 Agent 实验，而是一个 Chief Risk Officer 项目。原始组装中存在八类彼此不可替代的责任：
+
+| 角色 | 不可约责任 |
+| --- | --- |
+| `Lead` | 形成并承担整体判断、取舍与修正 |
+| `Data Analyst` | 界定观察事实、指标口径与认知盲区 |
+| `Strategy Analyst` | 构造行动反事实并比较非对称后果 |
+| `Anti-Fraud Specialist` | 探究对抗者适应、欺骗与规避后的可能世界 |
+| `Model Engineer` | 形式化不确定性、校准与模型失效边界 |
+| `Risk Platform Engineer` | 保证判断语义在工程实现中不失真 |
+| `Release Engineer` | 执行已经获准、范围受控且可回退的现实干预 |
+| `Release Verifier` | 独立验证现实是否支持或反驳候选与发布声明 |
+
+这些角色不是 Core 的硬编码默认值，也不是每次运行都必须经过的固定流水线。它们解释了 Arion 为什么要区分治理角色与临时 Agent：事实、策略、对抗风险、模型、实现、执行和独立验证不能安全地压缩成一个“万能 Agent”。
+
+公开仓库不包含原项目的产品名称、指标阈值、数据源、规则、模型、系统路径、发布命令或历史事件。完整的结构化示例见[一次脱敏的风险管理协作](docs/risk-management-walkthrough.zh-CN.md)。
+
 ## 它解决什么问题
 
 很多 Agent 系统擅长分配任务，却不擅长保存判断：
@@ -107,10 +126,11 @@ Domain Pack -> Arion Core
 
 ## 推荐阅读顺序
 
-1. [中文使用指南](docs/guidebook.zh-CN.md)：如何选择运行方式、执行第一个任务，以及构建自己的 Domain Pack。
-2. [设计原则](docs/principles.md)：为什么系统要保留不完备性、反事实与修正条件。
-3. [架构说明](docs/architecture.md)：Task、Working Set、Run 与动态 Agent 如何协作。
-4. [Domain Pack 契约](docs/contracts/arion-domain-pack.v1.yaml)：公开扩展边界。
+1. [风险管理协作示例](docs/risk-management-walkthrough.zh-CN.md)：从问题、角色激活、并行探究到判断、实施与现实修正。
+2. [中文使用指南](docs/guidebook.zh-CN.md)：如何选择运行方式、执行第一个任务，以及构建自己的 Domain Pack。
+3. [设计原则](docs/principles.md)：为什么系统要保留不完备性、反事实与修正条件。
+4. [架构说明](docs/architecture.md)：Task、Working Set、Run 与动态 Agent 如何协作。
+5. [Domain Pack 契约](docs/contracts/arion-domain-pack.v1.yaml)：公开扩展边界。
 
 ## 边界
 
