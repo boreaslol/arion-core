@@ -1,0 +1,30 @@
+version: 1
+status: public_reference
+
+registrations:
+  direct_run:
+    - match: prefix
+      executor_id: "route:"
+      callable: open_source.reference_pack.executors:bounded_inquiry_executor
+  task_graph:
+    - match: exact
+      executor_id: semantic_context_snapshot
+      callable: planner.unified_execution:semantic_snapshot_executor
+    - match: prefix
+      executor_id: "route:"
+      callable: open_source.reference_pack.executors:bounded_inquiry_executor
+    - match: prefix
+      executor_id: "role_runtime:"
+      callable: open_source.reference_pack.executors:investigator_executor
+    - match: prefix
+      executor_id: "external_agent:"
+      callable: planner.unified_execution:external_agent_request_executor
+    - match: exact
+      executor_id: system_assurance
+      callable: planner.unified_execution:system_assurance_executor
+    - match: exact
+      executor_id: independent_assurance
+      callable: planner.unified_execution:system_assurance_executor
+    - match: prefix
+      executor_id: "human_gate:"
+      callable: planner.unified_execution:human_gate_executor

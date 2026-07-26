@@ -1,0 +1,21 @@
+runtime_activation:
+  governance_model: fixed_role_registry
+  execution_model: adaptive_run
+  orchestrator_role: Coordinator
+
+roles:
+  - id: coordinator
+    name: Coordinator
+    lifecycle_phase: active
+    routable: true
+    asset_readiness:
+      run_contract:
+        output_file: outputs/coordinator.md
+
+  - id: investigator
+    name: Investigator
+    lifecycle_phase: active
+    routable: true
+    asset_readiness:
+      run_contract:
+        output_file: outputs/investigator.md

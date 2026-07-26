@@ -1,0 +1,257 @@
+{
+  "candidate_status": "candidate_ready_for_review",
+  "file_count": 41,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "8e52049b178b84e47b18f85c1dc6d7f59dab3d9e5af524aecaee8c5e1f6a0cbb",
+      "size_bytes": 70,
+      "source": "open_source/public_candidate/.gitignore"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "size_bytes": 11357,
+      "source": "LICENSE"
+    },
+    {
+      "path": "README.md",
+      "sha256": "10f4e9d4029e7bba28c08b8f83390ecf42be64ad90cf27792d7e0a5335d5ec38",
+      "size_bytes": 2593,
+      "source": "open_source/public_candidate/README.md"
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "403b2dc9c1263e30f60703196a7d9b85c459efc82240ff2bfab5f47ee293e70b",
+      "size_bytes": 2384,
+      "source": "open_source/public_candidate/docs/architecture.md"
+    },
+    {
+      "path": "docs/contracts/arion-domain-pack.v1.yaml",
+      "sha256": "943ac3c279afaad92fbfc34e30ceda57694d54b52bb1bbb23db472eafb2def99",
+      "size_bytes": 3690,
+      "source": "docs/contracts/arion-domain-pack.v1.yaml"
+    },
+    {
+      "path": "docs/principles.md",
+      "sha256": "ebe726be72afa1f33f160e85ee6de347e803d56f0ad6abdada64e244497be50e",
+      "size_bytes": 2580,
+      "source": "open_source/public_candidate/docs/principles.md"
+    },
+    {
+      "path": "open_source/__init__.py",
+      "sha256": "c98d3e7504959c193baedf7becd4ac2deefc0a89504f359bcd628f76a4d8ffad",
+      "size_bytes": 54,
+      "source": "open_source/__init__.py"
+    },
+    {
+      "path": "open_source/reference_pack/README.md",
+      "sha256": "8782fdc7502101f40ba64c72d3bd201955c22b50e31443d700fc8bf50786ca94",
+      "size_bytes": 665,
+      "source": "open_source/reference_pack/README.md"
+    },
+    {
+      "path": "open_source/reference_pack/__init__.py",
+      "sha256": "24ef846d888aeec29662438da1e7a8da6a32116b3d4ea645566f4749b78943fa",
+      "size_bytes": 68,
+      "source": "open_source/reference_pack/__init__.py"
+    },
+    {
+      "path": "open_source/reference_pack/executor_bindings.yaml",
+      "sha256": "7558e1448b3140fe02029c7a8ffcfcbca733272da1e4d4e298a8bd3403ba9bf7",
+      "size_bytes": 1092,
+      "source": "open_source/reference_pack/executor_bindings.yaml"
+    },
+    {
+      "path": "open_source/reference_pack/executors.py",
+      "sha256": "a3bf5cd87a98d6e2cc0ecfadebc02a340896f738a42455d79e8d3e6488bd64b0",
+      "size_bytes": 3937,
+      "source": "open_source/reference_pack/executors.py"
+    },
+    {
+      "path": "open_source/reference_pack/manifest.yaml",
+      "sha256": "9071a09a54f8d4a0ec927c6328119f7b32069c2982a20d08dd96410fa010e27d",
+      "size_bytes": 258,
+      "source": "open_source/reference_pack/manifest.yaml"
+    },
+    {
+      "path": "open_source/reference_pack/role_contracts.yaml",
+      "sha256": "432cb1b8e5219de4b25c37f11561813c1c8ff3664e18c449b463454996a4efe8",
+      "size_bytes": 1095,
+      "source": "open_source/reference_pack/role_contracts.yaml"
+    },
+    {
+      "path": "open_source/reference_pack/roles.yaml",
+      "sha256": "06306604413e243484c3b4b2ebeee7858efd762e8157a1fb937fd05f75319242",
+      "size_bytes": 485,
+      "source": "open_source/reference_pack/roles.yaml"
+    },
+    {
+      "path": "open_source/reference_pack/route_contracts.yaml",
+      "sha256": "0c9f4429029c094472c59af8d88599bdd4d0254e2718dfcad04e6a4de9c84ad4",
+      "size_bytes": 725,
+      "source": "open_source/reference_pack/route_contracts.yaml"
+    },
+    {
+      "path": "open_source/reference_pack/runtime_policy.yaml",
+      "sha256": "96c06fcc07385a373a30af2e324e798af7ead7290a3280254d7684a722e8f452",
+      "size_bytes": 566,
+      "source": "open_source/reference_pack/runtime_policy.yaml"
+    },
+    {
+      "path": "open_source/test_core_judgment.py",
+      "sha256": "f9c17418a39ac3d5bfc81c82823fc6e32e75230d9ae19d0f93a46032a9d8ec56",
+      "size_bytes": 5293,
+      "source": "open_source/test_core_judgment.py"
+    },
+    {
+      "path": "open_source/test_reference_pack.py",
+      "sha256": "b5c79890e3304c36ab82f28500ca145f16237bc2d1649b1d3291de154c17d3c4",
+      "size_bytes": 6270,
+      "source": "open_source/test_reference_pack.py"
+    },
+    {
+      "path": "planner/__init__.py",
+      "sha256": "0795d010a3bf0a3a781348c4ea9f5a104abc51ed0855c4d38d0dc3b8ca3f0463",
+      "size_bytes": 66,
+      "source": "planner/__init__.py"
+    },
+    {
+      "path": "planner/capability_planner.py",
+      "sha256": "49d484e75d368123a130aea1a8341582474dd43a665efa18b6e34139954eae25",
+      "size_bytes": 16009,
+      "source": "planner/capability_planner.py"
+    },
+    {
+      "path": "planner/direct_execution.py",
+      "sha256": "1871cfab6cad28508928e7a86f1dc56a2e0fd367dc72788aad1a24fc0056b467",
+      "size_bytes": 12514,
+      "source": "planner/direct_execution.py"
+    },
+    {
+      "path": "planner/direct_run.py",
+      "sha256": "693ca3fa928f9fb797a5febe9b0d9c94107d91183a5fc2bd06cabaca04de13a2",
+      "size_bytes": 8641,
+      "source": "planner/direct_run.py"
+    },
+    {
+      "path": "planner/domain_pack.py",
+      "sha256": "9f7856473df74c7c230920e013c03b8afefbe5c23bd0376ec6a2e2d4485331af",
+      "size_bytes": 7388,
+      "source": "planner/domain_pack.py"
+    },
+    {
+      "path": "planner/executor_bindings.py",
+      "sha256": "5ae74c0a0146a0c6c04f806f9ba0620c887ce788a68dac665d5636762a680ce5",
+      "size_bytes": 4775,
+      "source": "planner/executor_bindings.py"
+    },
+    {
+      "path": "planner/intent_utils.py",
+      "sha256": "d24f4d1543c0400558dc7168cb0f20782cac68f9ce97695e770ac8df6432684a",
+      "size_bytes": 757,
+      "source": "planner/intent_utils.py"
+    },
+    {
+      "path": "planner/plan_models.py",
+      "sha256": "685f976682240615131ac610055a40f97337fffa0fc614fc75b23a26780ce31f",
+      "size_bytes": 2329,
+      "source": "planner/plan_models.py"
+    },
+    {
+      "path": "planner/role_activation.py",
+      "sha256": "2cbb650bd90845bd6ab67027fdbe875041aff27b83a819fd7023a246aab42b94",
+      "size_bytes": 7546,
+      "source": "planner/role_activation.py"
+    },
+    {
+      "path": "planner/role_registry.py",
+      "sha256": "0cca6d88d39ac9d6a046d48555f119572deb73a9cf3010c3c9f9e0f864709099",
+      "size_bytes": 3569,
+      "source": "planner/role_registry.py"
+    },
+    {
+      "path": "planner/route_contracts.py",
+      "sha256": "da4fa60e33a75c4d3b120a21f47ed2c339113c5ac4e23b59c8149a139187a46a",
+      "size_bytes": 5924,
+      "source": "planner/route_contracts.py"
+    },
+    {
+      "path": "planner/runtime_assurance.py",
+      "sha256": "d0df737a4af3276d8364002ddda72a8078b5429f89dfffd00650214373aef407",
+      "size_bytes": 5494,
+      "source": "planner/runtime_assurance.py"
+    },
+    {
+      "path": "planner/runtime_event_store.py",
+      "sha256": "348e014b16ba0150f17c0ff1bb749c2a157d075fde8f736536398243e6534e4d",
+      "size_bytes": 31906,
+      "source": "planner/runtime_event_store.py"
+    },
+    {
+      "path": "planner/runtime_outcome.py",
+      "sha256": "7aa41351a1b33e9f6779fced821aea51a36e07a04c5d4ca60b50c8ad00c47813",
+      "size_bytes": 5402,
+      "source": "planner/runtime_outcome.py"
+    },
+    {
+      "path": "planner/runtime_paths.py",
+      "sha256": "eef8166c7573e1fad54b3cf9425ea6c218d6414e3ee55f0e6b5386ccb19bfa1d",
+      "size_bytes": 5362,
+      "source": "planner/runtime_paths.py"
+    },
+    {
+      "path": "planner/runtime_recovery.py",
+      "sha256": "c523f995eac4e64fec79282e2ee470b1342d7c6f9651f325992edc861aaddb89",
+      "size_bytes": 5982,
+      "source": "planner/runtime_recovery.py"
+    },
+    {
+      "path": "planner/semantic_execution_planner.py",
+      "sha256": "44d4aeec0227562433485164870b740e3b71d1719e53ce882a593099e1723f9a",
+      "size_bytes": 29016,
+      "source": "planner/semantic_execution_planner.py"
+    },
+    {
+      "path": "planner/task_graph.py",
+      "sha256": "09b7fb05aefd8b539f1f0cda061757e99e2a800baee13ed7fec8242ad0ae74ca",
+      "size_bytes": 26357,
+      "source": "planner/task_graph.py"
+    },
+    {
+      "path": "planner/task_graph_execution.py",
+      "sha256": "4cd1c816d06bf6c9f5177e396b9c4d7b34d71e06bf0b14d4929562909086798a",
+      "size_bytes": 23888,
+      "source": "planner/task_graph_execution.py"
+    },
+    {
+      "path": "planner/unified_execution.py",
+      "sha256": "41c1dc8b45ed6bb0f0409c7a02c818a41247c7ed8dbcfedb31228f71dba97486",
+      "size_bytes": 13695,
+      "source": "planner/unified_execution.py"
+    },
+    {
+      "path": "planner/working_set_semantics.py",
+      "sha256": "ff6909b82442fd8c6a3e3aec96b8ff8893821456ab7c2b6c74ad9f03a1ed0ee4",
+      "size_bytes": 27562,
+      "source": "planner/working_set_semantics.py"
+    },
+    {
+      "path": "planner/working_set_store.py",
+      "sha256": "af4dfa9d995bd633433466cae922727ef3f55aad2279b608ba52e36e40b8212e",
+      "size_bytes": 18507,
+      "source": "planner/working_set_store.py"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "045148fbcc08a02c2ddaac98b2521362bb784224ab1eff4ad8ec854390a84797",
+      "size_bytes": 532,
+      "source": "open_source/public_candidate/pyproject.toml"
+    }
+  ],
+  "history_policy": "fresh_initial_commit",
+  "manifest_self_excluded": true,
+  "repository_name": "arion-core",
+  "schema_version": 1,
+  "source_policy_version": 2
+}

@@ -1,0 +1,9 @@
+schema_version: "1.0"
+pack_id: arion-synthetic-reference
+pack_version: "1.0.0"
+
+role_registry: roles.yaml
+runtime_policy: runtime_policy.yaml
+role_contracts: role_contracts.yaml
+route_contracts: route_contracts.yaml
+executor_bindings: executor_bindings.yaml

@@ -1,0 +1,32 @@
+canonical_role_registry: roles.yaml
+contract_scope: run_local_question_profiles
+defines_governance_authority: false
+
+roles:
+  Coordinator:
+    irreducible_question: What judgment remains accountable?
+    objective: Review the evidence boundary and decide whether to close or redirect.
+    questions:
+      - What remains unknown?
+      - What would revise the current judgment?
+    outputs:
+      - accountable_judgment
+      - unresolved_residual
+
+  Investigator:
+    irreducible_question: What does the bounded evidence support?
+    objective: Separate observed experience from interpretation.
+    questions:
+      - What is directly observed?
+      - Which alternative explanation remains viable?
+      - Which new observation would revise the judgment?
+    hypotheses:
+      - The current explanation is incomplete.
+    boundaries:
+      - Use synthetic local evidence only.
+      - Do not claim external verification.
+    outputs:
+      - evidence_boundary
+      - counterfactual
+      - revision_trigger
+    stop_point: Stop when the evidence boundary and revision condition are explicit.

@@ -1,0 +1,19 @@
+version: arion-synthetic-runtime-v1
+status: public_reference
+
+planning:
+  baseline_owner_role: Investigator
+  workflow_bindings:
+    - workflow_id: counterfactual_review
+      maturity: active
+      requested_capability_id: counterfactual_review
+      route_family: bounded_inquiry
+      chain_id: counterfactual_review_chain
+      owner_role: Investigator
+      active_roles: [Investigator]
+      orchestration_mode: task_graph
+      analysis_required: true
+      match_any:
+        - counterfactual
+        - alternative explanation
+        - competing hypothesis

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arion-judgment-core"
+version = "0.1.0"
+description = "A revisable collective-judgment runtime with problem-driven Agents."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Apache-2.0"}
+dependencies = ["PyYAML>=6"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["planner*", "open_source*"]
+
+[tool.pytest.ini_options]
+testpaths = ["open_source"]
+addopts = "-q"

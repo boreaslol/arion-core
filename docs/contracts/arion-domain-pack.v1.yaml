@@ -1,0 +1,131 @@
+contract_id: arion_domain_pack
+schema_version: "1.0"
+status: boundary_frozen
+
+purpose: >-
+  Keep Arion's judgment and execution kernel independent from any concrete
+  business domain while allowing one explicitly selected Domain Pack to provide
+  roles, routing, semantics, knowledge, executors, resources, and governed
+  action protocols.
+
+dependency_direction:
+  allowed: domain_pack_depends_on_arion_core
+  forbidden:
+    - arion_core_imports_domain_pack_implementation
+    - arion_core_discovers_private_repository_implicitly
+    - domain_pack_redefines_core_task_or_working_set_state
+
+core_owns:
+  - task_identity_and_lifecycle
+  - versioned_working_set
+  - bounded_run
+  - agent_instance_identity
+  - direct_run_contract
+  - optional_task_graph_contract
+  - runtime_event_state
+  - artifact_reference_contract
+  - executor_registry_interface
+  - baseline_side_effect_policy
+  - pack_manifest_validation
+
+domain_pack_owns:
+  - governance_role_registry
+  - role_question_profiles
+  - route_contracts
+  - workflow_bindings
+  - semantic_contracts
+  - curated_domain_knowledge
+  - capability_declarations
+  - resource_adapters
+  - executor_bindings
+  - domain_reproducibility_protocols
+  - governed_action_protocols
+  - domain_acceptance_rules
+
+manifest:
+  required_fields:
+    - schema_version
+    - pack_id
+    - pack_version
+    - role_registry
+    - runtime_policy
+    - role_contracts
+    - route_contracts
+    - executor_bindings
+  optional_fields:
+    - golden_workflows
+    - semantic_roots
+    - knowledge_roots
+    - capability_roots
+    - resource_adapters
+    - action_protocol_roots
+    - reference_documents
+  path_rules:
+    - every_relative_path_must_resolve_inside_pack_root
+    - every_declared_root_must_exist_as_a_directory
+    - every_reference_document_must_exist_as_a_file
+    - runtime_payload_paths_are_forbidden
+    - credentials_and_connection_values_are_forbidden
+    - missing_optional_roots_do_not_create_implicit_defaults
+
+runtime_loading:
+  selection: explicit_pack_root
+  implicit_repository_discovery_allowed: false
+  multiple_active_packs_allowed: false
+  execution_plan_provenance:
+    - schema_version
+    - pack_id
+    - pack_version
+    - manifest
+  executor_registration: explicit_manifest_bindings
+  core_default_business_executor_allowed: false
+  core_default_product_vocabulary_allowed: false
+
+executor_bindings:
+  version: 1
+  runtime_kinds:
+    - direct_run
+    - task_graph
+  registration_fields:
+    - match
+    - executor_id
+    - callable
+  match_kinds:
+    - exact
+    - prefix
+  callable_reference_format: module.path:attribute
+  registry_must_match_execution_plan_pack_identity: true
+
+route_contracts:
+  default_route_required: true
+  intent_family_source: route_entry
+  entity_alias_source: domain_pack
+  core_default_aliases_allowed: false
+
+safety:
+  pack_may_narrow_core_policy: true
+  pack_may_weaken_core_policy: false
+  production_write_requires_governed_action_protocol: true
+  secrets_must_arrive_from_external_runtime_configuration: true
+  raw_runtime_payload_in_pack_source: false
+
+public_reference_pack:
+  purpose: demonstrate_the_contract_without_real_business_material
+  must_use:
+    - synthetic_roles
+    - synthetic_routes
+    - synthetic_semantics
+    - synthetic_evidence
+  must_not_use:
+    - company_identifiers
+    - production_hosts
+    - customer_or_order_identifiers
+    - real_incident_evidence
+    - private_knowledge
+
+acceptance:
+  - core_tests_pass_when_private_modules_are_blocked
+  - public_reference_pack_runs_without_private_repository
+  - private_pack_can_upgrade_without_copying_core_source
+  - core_can_upgrade_without_reading_private_pack_content
+  - public_export_is_built_from_an_explicit_allowlist

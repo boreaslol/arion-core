@@ -1,0 +1,32 @@
+version: 1
+status: public_reference
+default_route: bounded_inquiry
+
+entity_aliases: {}
+
+dimensions:
+  perspective:
+    - perspective
+    - viewpoint
+  time_window:
+    - time window
+    - period
+
+routes:
+  - id: bounded_inquiry
+    intent_family: inquiry
+    priority: 100
+    summary: Inspect one synthetic observation and one alternative explanation.
+    schema_family: synthetic
+    default_window_months: 1
+    confidence: 0.70
+    match_any:
+      - inquiry
+      - evidence
+      - observation
+    query_families:
+      - synthetic_observation
+    required_preconditions:
+      - The input must not contain real customer or production data.
+    next_actions:
+      - Record one counterfactual and one revision trigger.
