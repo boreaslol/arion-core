@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "arion-judgment-core"
-version = "0.1.0"
+version = "0.1.1"
 description = "A risk-management-derived runtime for revisable collective judgment and problem-driven Agents."
 readme = "README.md"
 requires-python = ">=3.11"

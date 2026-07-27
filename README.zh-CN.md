@@ -144,6 +144,10 @@ Arion Core 不是：
 
 公开 Core 默认保持本地执行，并禁止远端写入与生产写入。业务语义、数据连接器、模型、基础设施、凭证、运行产物和具体行动协议都应留在独立的 Domain Pack 或受治理的外部系统中。
 
+## 安全
+
+Arion Core 会对每项候选变更运行测试、依赖漏洞审计和完整 Git 历史凭据扫描。发现疑似漏洞时，请按照 [SECURITY.md](SECURITY.md) 使用私密报告渠道，不要在公开 Issue 中披露凭据或敏感证据。
+
 ## License
 
 Apache License 2.0。
