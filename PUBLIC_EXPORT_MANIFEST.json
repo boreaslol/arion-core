@@ -10,7 +10,7 @@
     },
     {
       "path": ".github/workflows/security-baseline.yml",
-      "sha256": "5e5713707d2da26dc257a86124565d3ed7a9d920f5c07709bb6832204215dd56",
+      "sha256": "8621da7acc0540b067ef9b34d6021e714fb13769e05b60253c3b66935f00078c",
       "size_bytes": 2597,
       "source": "open_source/public_candidate/.github/workflows/security-baseline.yml"
     },
