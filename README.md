@@ -97,6 +97,12 @@ See the
 [Architecture](docs/architecture.md), and the
 [Domain Pack contract](docs/contracts/arion-domain-pack.v1.yaml).
 
+## Security
+
+Arion Core runs tests, dependency auditing, and complete-history secret
+scanning for every proposed change. Please report suspected vulnerabilities
+through the private process in [SECURITY.md](SECURITY.md).
+
 ## License
 
 Apache License 2.0.

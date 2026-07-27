@@ -1,7 +1,19 @@
 {
   "candidate_status": "candidate_ready_for_review",
-  "file_count": 44,
+  "file_count": 47,
   "files": [
+    {
+      "path": ".github/dependabot.yml",
+      "sha256": "0a439365b7108f19c555b1270da9f24c58a2c6fa75ef2415cd2e843adce407df",
+      "size_bytes": 372,
+      "source": "open_source/public_candidate/.github/dependabot.yml"
+    },
+    {
+      "path": ".github/workflows/security-baseline.yml",
+      "sha256": "5e5713707d2da26dc257a86124565d3ed7a9d920f5c07709bb6832204215dd56",
+      "size_bytes": 2597,
+      "source": "open_source/public_candidate/.github/workflows/security-baseline.yml"
+    },
     {
       "path": ".gitignore",
       "sha256": "8e52049b178b84e47b18f85c1dc6d7f59dab3d9e5af524aecaee8c5e1f6a0cbb",
@@ -16,15 +28,21 @@
     },
     {
       "path": "README.md",
-      "sha256": "b21439989525746ae78c0d9a49386618ea10c1380de214b73b698ff0a7e731d0",
-      "size_bytes": 3634,
+      "sha256": "c7fabb65fc55208f6b5146b0f51c7097b772a6c423708bb880f15f9268fea190",
+      "size_bytes": 3855,
       "source": "open_source/public_candidate/README.md"
     },
     {
       "path": "README.zh-CN.md",
-      "sha256": "38830093999d9f98bf8bd40422c5db062234e5ca7ffeb99d837d5e096ff7c3da",
-      "size_bytes": 6285,
+      "sha256": "a8bfcc794804cf8b468101573a9d77f77d2bdba316293a7b3fe9647da603584c",
+      "size_bytes": 6544,
       "source": "open_source/public_candidate/README.zh-CN.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "28ad98d91ffb51090bf5b92c6b3e8458702eba818ceb82f56065c46e7a49eb62",
+      "size_bytes": 768,
+      "source": "open_source/public_candidate/SECURITY.md"
     },
     {
       "path": "docs/architecture.md",
@@ -262,7 +280,7 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "3637ef3cad6f8faa723b35ec07a3d052ac09a997926dca287c90c2034afedce3",
+      "sha256": "52684bf5c1c48520e21d84d477b07da30e4cdd850f0bcaa9decf442cb594bc29",
       "size_bytes": 559,
       "source": "open_source/public_candidate/pyproject.toml"
     }
